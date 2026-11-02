@@ -1,0 +1,34 @@
+# --- Secrets & credentials (NEVER commit these) ---
+.env
+*.env
+.env.*
+!.env.example
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+service-account*.json
+*_token
+*_secret
+
+# --- Local data files ---
+*.xlsx
+*.xls
+*.csv.local
+
+# --- Dependencies ---
+node_modules/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
